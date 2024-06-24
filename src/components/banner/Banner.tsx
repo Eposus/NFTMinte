@@ -14,19 +14,19 @@ const Banner = () => {
 
         <div className="h-[100vh] w-full z-30">
           <div className="w-full h-full bg-[#02060a]/30 z-30">
-            <div className="max-w-[1600px] h-full flex flex-col md:flex-row justify-between items-center m-auto">
+            <div className="max-w-[1600px] h-full flex flex-col md:flex-row px-3 justify-between items-center m-auto">
               <div className="flex flex-col gap-5 items-start justify-center mt-40 md:mt-0">
-                <h1 className="text-6xl font-bold leading-tight">
+                <h1 className="text-3xl lg:text-6xl font-bold leading-tight">
                   CRAZY META 🎯 <br /> NFT COLLECTIONS
                 </h1>
-                <div className="flex items-center gap-x-10">
+                <div className="flex flex-wrap items-center gap-3 md:gap-x-10">
                   <button className="btn !rounded-md">
                     <span className="button-content">Connect Wallet</span>
                   </button>
                   <button className="btn-2">MINT NOW</button>
                 </div>
               </div>
-              <div className="relative bg-white/20 mr-32 p-3 w-fit rounded-lg">
+              <div className="relative bg-white/20 lg:mr-32 p-3 w-fit rounded-lg">
                 <p className="text-[100px] ">
                   NTF Image <br />
                   HERE
